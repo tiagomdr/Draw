@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+:root {
+    --CorLeft: #8b0000;
+    --CorRight: #4b0000;
+    --CorTheree: #000000;
+    --CorDosTextos: #ac6a0c;
+    --CorButtons: #b7b2aa;
+}
+
+
+body {
+     background: linear-gradient(to left, var(--CorLeft) 0%, var(--CorRight) 50%, var(--CorTheree) 100%);
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    color: var(--CorDosTextos);
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+input {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--CorLeft);
+    background-color: var(--CorButtons);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px var(--CorDosTextos);
+}
+
+input::placeholder {
+    color: var(--CorDosTextos);
+}
+
+input:focus {
+    box-shadow: 0 0 25px var(--CorButtons);
+
+}
+
+.botaoSortear {
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--CorButtons);
+    cursor: pointer;
+    margin-top: 10px;
+    /* margin-left: 50px; */
+    color: var(--CorDosTextos);
+    font-weight: 800;
+    box-shadow: 0 0 5px var(--CorButtons);
+    transition: transform 0.6s ease-in-out;
+}
+
+.botaoSortear:hover {
+     transform: translateY(-5px);
+      box-shadow: 0 0 20px var(--CorButtons);
+}
+
+
+.botaoMusic {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--CorButtons);
+    cursor: pointer;
+    margin-top: 10px;
+    color: var(--CorDosTextos);
+    font-weight: 800;
+    box-shadow: 0 0 5px var(--CorButtons);
+    transition: transform 0.6s ease-in-out;
+    position: absolute;
+    bottom: 130px;
+    right: 10px;
+}
+
+.botaoMusic:hover {
+     transform: translateY(-5px);
+      box-shadow: 0 0 20px var(--CorButtons);
+}
+
+
+
+p {
+    margin-top: 15px;
+    color: var(--CorDosTextos);
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    visibility: hidden;
+    transform: translateX(-600px);
+    transition: transform 0.6 ease-in-out;
+}
