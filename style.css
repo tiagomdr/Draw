@@ -102,12 +102,12 @@ input:focus {
     box-shadow: 0 0 5px var(--CorButtons);
     transition: transform 0.6s ease-in-out;
     position: absolute;
-    bottom: 130px;
-    right: 10px;
+    bottom: 30px;
+    right: 20px;
 }
 
 .botaoMusic:hover {
-     transform: translateY(-5px);
+     transform: translateY(-10px);
       box-shadow: 0 0 20px var(--CorButtons);
 }
 
