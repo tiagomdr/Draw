@@ -18,7 +18,7 @@
 
 
 body {
-     background: linear-gradient(to left, var(--CorLeft) 0%, var(--CorRight) 50%, var(--CorTheree) 100%);
+    background: linear-gradient(to left, var(--CorLeft) 0%, var(--CorRight) 50%, var(--CorTheree) 100%);
 }
 
 main {
@@ -36,6 +36,7 @@ h1 {
     font-size: 25px;
     margin-bottom: 15px;
 }
+
 div {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,8 +84,8 @@ input:focus {
 }
 
 .botaoSortear:hover {
-     transform: translateY(-5px);
-      box-shadow: 0 0 20px var(--CorButtons);
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px var(--CorButtons);
 }
 
 
@@ -99,16 +100,36 @@ input:focus {
     margin-top: 10px;
     color: var(--CorDosTextos);
     font-weight: 800;
-    box-shadow: 0 0 5px var(--CorButtons);
+    
     transition: transform 0.6s ease-in-out;
     position: absolute;
     bottom: 30px;
     right: 20px;
+    animation: pulsar 2s infinite;
+}
+
+@keyframes pulsar {
+    
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 8px var(--CorButtons);
+    }
+
+    50% {
+           transform: scale(1.1);
+           box-shadow: 0 0 15px var(--CorButtons);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 8px var(--CorButtons);
+    }
+
 }
 
 .botaoMusic:hover {
-     transform: translateY(-10px);
-      box-shadow: 0 0 20px var(--CorButtons);
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px var(--CorButtons);
 }
 
 
