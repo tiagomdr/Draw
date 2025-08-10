@@ -8,16 +8,15 @@ Perfeito para realizar sorteios rápidos e de forma totalmente automática.
 - **CSS3** → Estilização e design responsivo
 - **JavaScript (Vanilla)** → Lógica do sorteio e interação com o usuário
 
-## 📷 Prévia do Projeto
-<img src="https://github.com/tiagomdr/Draw/blob/main/assets/img-sorteador.png?raw=true" alt="Previa do projeto">
-
 ## 📌 Funcionalidades
 - Definir intervalo de números (mínimo e máximo)
 - Gerar números aleatórios de forma instantânea
 - Interface simples e intuitiva
 - Totalmente responsivo para celular e desktop
 
-## 📂 Como Usar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/tiagomedeirosdev/NOME_DO_REPOSITORIO.git
+
+## 📷 Prévia do Projeto
+<img src="https://github.com/tiagomdr/Draw/blob/main/assets/img-sorteador.png?raw=true" alt="Previa do projeto">
+
+
+
