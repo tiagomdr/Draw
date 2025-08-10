@@ -17,5 +17,6 @@ Perfeito para realizar sorteios rápidos e de forma totalmente automática.
 
 ## 📷 Prévia do Projeto
 <img src="https://github.com/tiagomdr/Draw/blob/main/assets/img-sorteador.png?raw=true" alt="Previa do projeto">
+
 --
 
