@@ -1,8 +1,8 @@
 const BotaoSorteio = document.querySelector('button')
 
 BotaoSorteio.addEventListener('click', () => {
-        const min = Number(document.querySelector('.min').value)
-        const max = Number(document.querySelector('.max').value)
+        const min = Math.ceil(document.querySelector('.min').value)
+        const max = Math.floor(document.querySelector('.max').value)
         const input = document.querySelector('input')
         const resultado = document.querySelector('.resultado')  
 
@@ -32,11 +32,9 @@ let tocando = false;
 playBtn.addEventListener("click", () => {
     if (!tocando) {
         player.play();
-        playBtn.textContent = "⚡"; // muda o ícone para pausa
         tocando = true;
     } else {
         player.pause();
-        playBtn.textContent = "⚡"; // volta para o ícone de música
         tocando = false;
     }
 });
