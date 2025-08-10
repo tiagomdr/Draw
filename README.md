@@ -9,7 +9,7 @@ Perfeito para realizar sorteios rápidos e de forma totalmente automática.
 - **JavaScript (Vanilla)** → Lógica do sorteio e interação com o usuário
 
 ## 📷 Prévia do Projeto
-*(Adicione aqui uma imagem ou GIF mostrando seu projeto)*
+<img src="">
 
 ## 📌 Funcionalidades
 - Definir intervalo de números (mínimo e máximo)
