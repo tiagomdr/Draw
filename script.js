@@ -6,7 +6,7 @@ BotaoSorteio.addEventListener('click', () => {
         const input = document.querySelector('input')
         const resultado = document.querySelector('.resultado')  
 
-        const GerarNumeroAleatorio = Math.floor(Math.random() * (max - min + 1)) + 1
+        const GerarNumeroAleatorio = Math.floor(Math.random() * (max - min + 1)) +min
 
         if(input.value === "") {
            return alert('🧑‍💻 Por favor, preencha os valores abaixo')
